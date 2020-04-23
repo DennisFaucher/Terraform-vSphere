@@ -54,11 +54,20 @@ build.tf defined the Terraform provider (vsphere) that will do the work as well 
 Once you have created your variables.tf and build.tf files in your new directory, run "terraform init" to download the Terraform vsphere provider module referenced in your build.tf file. You should see some progress messages like these:
 
 Initializing the backend...
+
 Initializing provider plugins...
+
 - Checking for available provider plugins...
 - Downloading plugin for provider "vsphere" (hashicorp/vsphere) 1.17.2...
 
 Terraform has been successfully initialized!
+
+### Testing the Configuration Before Applying
+
+The "terraform plan" command will run through your build.tf look for errors and tell you what woould happen when you run "terrform apply" without actually applying the configuration. Run "terraform plan" and fix any syntax errors you may have.
+
+### Applying the Configuration
+
 
 
 
