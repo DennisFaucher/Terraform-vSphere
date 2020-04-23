@@ -47,7 +47,7 @@ variables.tf holds some of your sensitive configuration data such as your vCente
 
 ### Creating Your build.tf File
 
-build.tf defined the Terraform provider (vsphere) that will do the work as well as what work to do (clone a VM from template and then customize that VM). Download and edit the build.tf in this repository to match your VM creation needs. 
+build.tf defines the Terraform provider (vsphere) that will do the work as well as what work to do (clone a VM from template and then customize that VM). Download and edit the build.tf in this repository to match your VM creation needs. 
 
 ### Initializing the VMware Terraform Module
 
@@ -64,7 +64,7 @@ Terraform has been successfully initialized!
 
 ### Testing the Configuration Before Applying
 
-The "terraform plan" command will run through your build.tf look for errors and tell you what woould happen when you run "terrform apply" without actually applying the configuration. Run "terraform plan" and fix any syntax errors you may have.
+The "terraform plan" command will run through your build.tf, look for errors and tell you what would happen when you run "terrform apply" without actually applying the configuration. Run "terraform plan" and fix any syntax errors you may have.
 
 ### Applying the Configuration
 
