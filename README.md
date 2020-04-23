@@ -68,6 +68,12 @@ The "terraform plan" command will run through your build.tf look for errors and 
 
 ### Applying the Configuration
 
+The "terraform apply" command will make the changes defined in your build.tf configuration file. In the case of our test, create a new VM based on the VM template specified, power on the new VM, change the VM's IP address and hostname. At the successful completion of the "terraform apply" you should get a message like this one:
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+
+
 
 
 
