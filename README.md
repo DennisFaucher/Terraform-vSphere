@@ -20,7 +20,8 @@ If you already have a home lab or some other running vSphere/vCenter environment
 
 All VMware software can be downloaded and installed without a license for 180 days
 ### Virtual Machine Template
-* In the second ESXi host, create a CentOS VM and clone to a template
+* In the second ESXi host, create a CentOS VM and clone to a template. It is _very_ important that your master CentOS VM boots to a usable IP address before you clone to a template. Terraform will not run to completion nor successfully customize the new VM unless the new VM can be reached over IP.
+
 When done, your vCenter will look something like this:
 
 Hosts and Clusters
@@ -47,4 +48,8 @@ variables.tf holds some of your sensitive configuration data such as your vCente
 ### Creating Your build.tf File
 
 build.tf defined the Terraform provider (vsphere) that will do the work as well as what work to do (clone a VM from template and then customize that VM). Download and edit the build.tf in this repository to match your VM creation needs. 
+
+### Initializing the VMware Terraform Module
+
+Once you have created your variables.tf and build.tf files in your new directory, run "terraform init" to download the Terraform vsphere provider module referenced in your build.tf file.
 
