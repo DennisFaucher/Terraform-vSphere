@@ -18,9 +18,13 @@ If you already have a home lab or some other running vSphere/vCenter environment
 ### Virtual Machine Template
 * In the second ESXi host, create a CentOS VM and clone to a template
 When done, your vCenter will look something like this:
+
 Hosts and Clusters
+
 ![Hosts](https://github.com/DennisFaucher/Terraform-vSphere/blob/master/Hosts.png)
+
 VMs and Templates
+
 ![VMs](https://github.com/DennisFaucher/Terraform-vSphere/blob/master/Virtual%20Machines.png)
 
 
