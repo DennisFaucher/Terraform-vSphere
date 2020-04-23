@@ -72,7 +72,9 @@ The "terraform apply" command will make the changes defined in your build.tf con
 
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
+## Thank You
 
+Thanks for your interest in this repository. Please contact me with any questions or feel free to open an issue with any errors I may have made.
 
 
 
