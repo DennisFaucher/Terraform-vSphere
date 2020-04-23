@@ -18,5 +18,12 @@ If you already have a home lab or some other running vSphere/vCenter environment
 ### Virtual Machine Template
 * In the second ESXi host, create a CentOS VM and clone to a template
 When done, your vCenter will look something like this:
+Hosts and Clusters
+![Hosts](https://github.com/DennisFaucher/Terraform-vSphere/blob/master/Hosts.png)
+VMs and Templates
+![VMs](https://github.com/DennisFaucher/Terraform-vSphere/blob/master/Virtual%20Machines.png)
+
+
+
 ### Terraform Binary
 One of the cool features of Terraform is that is consists of a single binary. You can download the binary for your operating system here: https://www.terraform.io/downloads.html. Binaries are available for macOS, FreeBSD, Linux, OpenBSD, Solaris and Windows
