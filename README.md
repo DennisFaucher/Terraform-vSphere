@@ -19,4 +19,4 @@ If you already have a home lab or some other running vSphere/vCenter environment
 * In the second ESXi host, create a CentOS VM and clone to a template
 When done, your vCenter will look something like this:
 ### Terraform Binary
-One of the cool features of Terraform is that is consists of a single binary. You can download the binary for your operating system here: https://www.terraform.io/downloads.html Binaries are available for macOS, FreeBSD, Linux, OpenBSD, Solaris and Windows
+One of the cool features of Terraform is that is consists of a single binary. You can download the binary for your operating system here: https://www.terraform.io/downloads.html. Binaries are available for macOS, FreeBSD, Linux, OpenBSD, Solaris and Windows
