@@ -4,6 +4,9 @@ Using Terraform to Automate vSphere VM Creation
 My customers are all looking to see how Terraform fits in their multi-cloud starategy, so I figured some Terraform hands-on couldn't hurt. 
 ## Quick Demo Video
 Here is a quick demo video of everything working: https://youtu.be/yJQRYbniFuA
+
+![Quick Demo](https://github.com/DennisFaucher/Terraform-vSphere/blob/master/Quick%20Demo.png)
+
 ## Requirements
 * vSphere Environment with vCenter
 * Virtual Machine Template
