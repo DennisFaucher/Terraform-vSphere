@@ -51,5 +51,13 @@ build.tf defined the Terraform provider (vsphere) that will do the work as well 
 
 ### Initializing the VMware Terraform Module
 
-Once you have created your variables.tf and build.tf files in your new directory, run "terraform init" to download the Terraform vsphere provider module referenced in your build.tf file.
+Once you have created your variables.tf and build.tf files in your new directory, run "terraform init" to download the Terraform vsphere provider module referenced in your build.tf file. You should see some progress messages like these:
+
+Initializing the backend...
+Initializing provider plugins...
+- Checking for available provider plugins...
+- Downloading plugin for provider "vsphere" (hashicorp/vsphere) 1.17.2...
+Terraform has been successfully initialized!
+
+
 
