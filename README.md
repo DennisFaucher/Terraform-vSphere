@@ -15,4 +15,7 @@ If you already have a home lab or some other running vSphere/vCenter environment
 * Install a seconde ESXi host in Parallels
 * In the first ESXi host, install the vCenter Server Appliance OVA and add both ESXi hosts to this vCenter
 * Create a vCenter Data Center and Cluster using just the second ESXi host
+### Virtual Machine Template
 * In the second ESXi host, create a CentOS VM and clone to a template
+When done, your vCenter will look something like this:
+### Terraform Binary
