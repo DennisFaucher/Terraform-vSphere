@@ -16,7 +16,7 @@ Here is the complete tutorial VLOG: https://youtu.be/b-G2K3l-zzI
 ### vSphere Environment with vCenter
 If you already have a home lab or some other running vSphere/vCenter environment, awesome. As I seem to enjoy pain, I built a two ESXi host/vCenter environment in Parallels on my 16 GB RAM MacBook Pro. My MBP was _not_ happy but it worked. If you would like to do the same thing, these are the high-level steps:
 * Install an ESXi host in Parallels
-* Install a seconde ESXi host in Parallels
+* Install a second ESXi host in Parallels
 * In the first ESXi host, install the vCenter Server Appliance OVA and add both ESXi hosts to this vCenter
 * Create a vCenter Data Center and Cluster using just the second ESXi host
 
